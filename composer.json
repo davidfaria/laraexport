@@ -1,0 +1,17 @@
+{
+    "name": "davidfaria89/laraexport",
+    "description": "Biblioteca para exportar dados para Excel e XML",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "David",
+            "email": "davidfaria89@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4":{
+            "LaraExport\\": "src/"
+        }
+    }
+}
