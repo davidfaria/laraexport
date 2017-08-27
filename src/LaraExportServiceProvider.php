@@ -18,6 +18,7 @@ class LaraExportServiceProvider extends ServiceProvider
     {
         $this->app->bind('laraexport', function(){
             return new Export();
+
         });
     }
 
